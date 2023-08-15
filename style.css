@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: #fff; */
+  font-family: 'Montserrat', sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+   ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url("Assets/jungle.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+  width: 100%;
+  height: 10vh;
+  position: relative;
+  display: flex;
+  /* background-color:  #333131  */
+  /* background-color: #AACD06; */
+  background-color: #1e250369;
+}
+.lft-nav{
+    width : 20%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lft-nav img{
+  width: 3vw;
+ 
+ 
+}
+.lft-nav h2{
+   color: #AACD06;
+   font-size: 1.5rem;
+   
+
+}
+.cntr-nav{
+   height: 100%;
+   width: 55%;
+   /* background-color: ; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10%;
+   
+
+}
+.cntr-nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.ryt-nav{
+   width: 25%;
+   height: 100%;
+   /* background-color: aqua; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.5vw;
+}
+#searchbox{
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+#searchbox input{
+  
+  border: none;
+  outline: none;
+  background: none;
+  color: #000;
+  
+  
+}
+#searchbox i{
+  width: 2vw;
+  color: #AACD06;
+}
+.ryt-nav button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #AACD06;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* <-------------navbar completed------------> */
+main{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #1e250369;
+  z-index: 1;
+  
+
+}
+
+#upperlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  
+}
+#upperlay #rytpart{
+      width: 50%;
+      height: 100%;
+      /* background-color: red; */
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      padding: 7%;
+      gap: 0.6vw;
+      color: #fff;
+}
+#rytpart h1{
+  width: 100%;
+    font-size: 500%;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#rytpart h2{
+  width: 100%;
+  font-size: 2.5rem;
+  font-weight: 450;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#rytpart p{
+  width: 111%;
+  font-size: 1rem;
+  font-weight: 500;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#locationbox{
+  width: 100%;
+  height: 3rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+#locationbox input{
+  width: 100%;
+  border: none;
+  outline: none;
+  /* padding: 10px; */
+  font-size: 17px;
+  /* background: red; */
+  color: #000;
+  
+  
+  
+}
+#locationbox i{
+  width: 2vw;
+  color: #AACD06;
+}
+/* <-----------rytpart complete-----> */
+#upperlay #lftpart{
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+#lftpart h2{
+  font-weight: 500;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
